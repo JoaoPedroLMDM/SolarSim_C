@@ -8,10 +8,21 @@ package com.mycompany.solarsim;
  *
  * @author Aluno
  */
-public class Empresa {
-    String nome;
+public class Empresa extends Pessoa {
     String cnpj;
-    String endereco;
-    String email;
-    String telefone;
+
+    // Construtor da classe Empresa
+    public Empresa(String nome, String endereco, String email, String telefone, String cnpj) {
+        super(nome, endereco, email, telefone);
+        this.cnpj = cnpj;
+    }
+
+    // Método de acesso para a classe Empresa
+    public String getCnpj() {
+        return cnpj;
+    }
+
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
+    }
 }
