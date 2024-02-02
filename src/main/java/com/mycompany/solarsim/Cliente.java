@@ -9,8 +9,8 @@ package com.mycompany.solarsim;
  * @author Aluno
  */
 public class Cliente extends Pessoa {
-    String cpf;
-    String senha;
+    private String cpf;
+    private String senha;
 
     // Construtor da classe Cliente
     public Cliente(String nome, String endereco, String email, String telefone, String cpf, String senha) {
