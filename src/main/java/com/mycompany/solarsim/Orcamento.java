@@ -4,6 +4,11 @@
  */
 package com.mycompany.solarsim;
 
+/**
+ *
+ * @author Aluno
+ */
+
 public class Orcamento {
     private Cliente cliente;
     private String tetodegastos;
