@@ -9,7 +9,6 @@ package com.mycompany.mavenproject1;
  *
  * @author Aluno
  */
-
 public class Pessoa {
     private String nome;
     private String endereco;
