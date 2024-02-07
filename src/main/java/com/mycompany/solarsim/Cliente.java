@@ -8,6 +8,7 @@ package com.mycompany.solarsim;
  *
  * @author Aluno
  */
+
 public class Cliente extends Pessoa {
     private String cpf;
     private String senha;
