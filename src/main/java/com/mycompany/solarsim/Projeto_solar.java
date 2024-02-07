@@ -8,6 +8,7 @@ package com.mycompany.solarsim;
  *
  * @author Aluno
  */
+
 public class ProjetoSolar {
 
     private float demanda;
