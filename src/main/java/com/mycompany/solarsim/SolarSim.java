@@ -20,7 +20,7 @@ public class Main {
     static List<Cliente> clientes = new ArrayList<>();
     static List<Empresa> empresas = new ArrayList<>();
     static List<Orcamento> orcamentos = new ArrayList<>();
-    static List<ProjetoSolar> projetos = new ArrayList<>();
+    static List<Projeto_solar> projetos = new ArrayList<>();
 
     public static void main(String[] args) {
         int opcao;
@@ -148,7 +148,7 @@ public class Main {
         float valorEquip = scanner.nextFloat();
         System.out.print("Digite o valor da mão de obra: ");
         float maoDeObra = scanner.nextFloat();
-        ProjetoSolar projeto = new ProjetoSolar(demanda, qtdPlacas, potInversor, qtdInversor, valorEquip, maoDeObra);
+        Projeto_solar projeto = new Projeto_solar(demanda, qtdPlacas, potInversor, qtdInversor, valorEquip, maoDeObra);
         projetos.add(projeto);
         System.out.println("Projeto solar cadastrado com sucesso!");
     }
@@ -189,7 +189,7 @@ public class Main {
 
     private static void listarProjetos() {
         System.out.println("---- PROJETOS SOLARES CADASTRADOS ----");
-        for (ProjetoSolar projeto : projetos) {
+        for (Projeto_solar projeto : projetos) {
             System.out.println("Demanda: " + projeto.getDemanda());
             System.out.println("Quantidade de placas: " + projeto.getQtdPlacas());
             System.out.println("Potência do inversor: " + projeto.getPotInversor());
