@@ -9,7 +9,7 @@ package com.mycompany.solarsim;
  * @author Aluno
  */
 
-public class ProjetoSolar {
+public class Projeto_solar {
 
     private float demanda;
     private int qtdPlacas;
@@ -19,7 +19,7 @@ public class ProjetoSolar {
     private float maoDeObra;
 
     // Construtor da classe
-    public ProjetoSolar(float demanda, int qtdPlacas, int potInversor, int qtdInversor, float valorEquip, float maoDeObra) {
+    public Projeto_solar(float demanda, int qtdPlacas, int potInversor, int qtdInversor, float valorEquip, float maoDeObra) {
         this.demanda = demanda;
         this.qtdPlacas = qtdPlacas;
         this.potInversor = potInversor;
