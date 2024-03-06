@@ -1,27 +1,29 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
+package solarsimc;
 
-package com.mycompany.solarsim;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import solarsimc.modelo.Cliente;
+import solarsimc.modelo.Empresa;
+import solarsimc.modelo.Orcamento;
+import solarsimc.modelo.Projeto_solar;
 
 /**
  *
  * @author Aluno
  */
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 public class SolarSim {
 
-public class Main {
     static Scanner scanner = new Scanner(System.in);
     static List<Cliente> clientes = new ArrayList<>();
     static List<Empresa> empresas = new ArrayList<>();
     static List<Orcamento> orcamentos = new ArrayList<>();
     static List<Projeto_solar> projetos = new ArrayList<>();
-
+    
     public static void main(String[] args) {
         int opcao;
 
@@ -208,5 +210,5 @@ public class Main {
         }
         return null;
     }
-}
+    
 }
